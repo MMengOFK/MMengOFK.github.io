@@ -7,19 +7,19 @@ $(function () {
     function time() {
         timer = setInterval(function () {
             index++
-            if (index == $('.box img').length) {
+            if (index == $('.slideshow img').length) {
                 index = 0;
                 // 设置图片透明与否
-                $('.box img').css("opacity", "0");
-                $('.box img').eq(index).css("opacity", "1");
+                $('.slideshow img').css("opacity", "0");
+                $('.slideshow img').eq(index).css("opacity", "1");
 
                 // 设置下方圆点变化样式
                 $('.jump li').css("background-color", "white");
                 $('.jump li').eq(index).css("background-color", "red");
             } else {
                 // 设置图片透明与否
-                $('.box img').css("opacity", "0");
-                $('.box img').eq(index).css("opacity", "1");
+                $('.slideshow img').css("opacity", "0");
+                $('.slideshow img').eq(index).css("opacity", "1");
 
                 // 设置下方圆点变化样式
                 $('.jump li').css("background-color", "white");
@@ -30,12 +30,12 @@ $(function () {
     }
 
     // 鼠标移入图片盒子时左右按钮显示
-    $('.box').mouseover(function() {
+    $('.slideshow').mouseover(function() {
         $('.leftBtn').css('display','block');
         $('.rightBtn').css('display','block');
     })
 
-    $('.box').mouseout(function() {
+    $('.slideshow').mouseout(function() {
         $('.leftBtn').css('display','none');
         $('.rightBtn').css('display','none');
     })
@@ -44,13 +44,13 @@ $(function () {
     $('.leftBtn').click(function() {
         clearInterval(timer);
         if (index == 0) {
-            index = $('.box img').length - 1;
+            index = $('.slideshow img').length - 1;
         } else {
             index--;
         }
         // 设置图片透明与否
-        $('.box img').css("opacity", "0");
-        $('.box img').eq(index).css("opacity", "1");
+        $('.slideshow img').css("opacity", "0");
+        $('.slideshow img').eq(index).css("opacity", "1");
 
         // 设置下方圆点变化样式
         $('.jump li').css("background-color", "white");
@@ -62,14 +62,14 @@ $(function () {
     // 设置右按钮
     $('.rightBtn').click(function () {
         clearInterval(timer);
-        if (index == $('.box img').length - 1) {
+        if (index == $('.slideshow img').length - 1) {
             index = 0;
         } else {
             index++;
         }
         // 设置图片透明与否
-        $('.box img').css("opacity", "0");
-        $('.box img').eq(index).css("opacity", "1");
+        $('.slideshow img').css("opacity", "0");
+        $('.slideshow img').eq(index).css("opacity", "1");
 
         // 设置下方圆点变化样式
         $('.jump li').css("background-color", "white");
@@ -85,8 +85,8 @@ $(function () {
             index = i;
 
             // 设置图片透明与否
-            $('.box img').css("opacity", "0");
-            $('.box img').eq(index).css("opacity", "1");
+            $('.slideshow img').css("opacity", "0");
+            $('.slideshow img').eq(index).css("opacity", "1");
 
             // 设置下方圆点变化样式
             $('.jump li').css("background-color", "white");

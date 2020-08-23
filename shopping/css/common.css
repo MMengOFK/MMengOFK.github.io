@@ -1,0 +1,249 @@
+.area {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 38px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut ul li {
+    line-height: 38px;
+    float: left;
+    font-size: 12px;
+}
+
+.shortcut ul li a {
+    margin-right: 15px;
+}
+
+.color_red {
+    color: #F26240;
+}
+
+.arrow-icon::after {
+    margin-left: 5px;
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+
+.icon-cart::before {
+    margin-right: 5px;
+    font-family: 'icomoon';
+    color: #F26240;
+    content: '\e93a';
+}
+
+.icon-menu::before {
+    margin-right: 5px;
+    font-family: 'icomoon';
+    color: #F26240;
+    content: '\e9bd';
+}
+
+.photo {
+    background-color:#E71B1B;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    height: 121px;
+    line-height: 121px;
+    background-color: #fff;
+}
+
+.logo img{
+    height: 58px; 
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    width: 538px;
+    height: 42px;
+    padding: 0px 0px 0px 18px;
+    border: 2px solid #E71B1B;
+    border-radius: 21px;
+}
+
+.search input {
+    width: 454px;
+    height: 38px;
+}
+
+.search button {
+    width: 62px;
+    height: 38px;
+    background-color: #E71B1B;
+    color: #fff;
+    border: 0px;
+    border-radius: 0 21px 21px 0;
+}
+
+.hotwords {
+    width: 538px;
+    height: 36px;
+    position: absolute;
+    top: 70px;
+    left: 346px;
+    /* background-color: blue; */
+}
+
+.hotwords ul li{
+    height: 36px;
+    line-height: 36px;
+    margin-left: 10px;
+    float: left;
+    font-size: 12px;
+}
+
+.hotwords li a {
+    background-color: #fff;
+}
+
+/* 导航 */
+.nav {
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font: 14px/2.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #fff;
+}
+
+/* 导航左侧 */
+.nav .theme {
+    position: relative;
+    width: 190px;
+    border: 1px solid #FF5000;
+    background-color: #fff;
+}
+
+.theme li:first-child {
+    padding-left: 0px;
+    text-align: center;
+    background-color: #FF5000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.theme li a{
+    padding-left: 25px;
+    height: 32px;
+    line-height: 32px;  
+    font-size: 14px;
+    color: #666670;
+}
+
+.theme li a::after {
+    position: absolute;
+    right: 5px;
+    font-family: 'icomoon';
+    content: '\e920';
+    color: #666670;
+}
+
+.theme li:hover {
+    background-color: #FFE4DC; 
+}
+
+.theme li:hover a {
+    color: #FF5100;
+}
+
+/* 导航右侧 */
+.navitems {
+    width: 990px;
+    background-image: linear-gradient(to right, #FF8B00 , #FF5100);
+}
+
+.navitems li{
+    margin: 0px 10px;
+    float: left;      
+}
+
+.navitems ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navitem2 li:first-child::before {
+    content: "|";
+    margin-right: 20px;
+}
+
+.navitem3 li:first-child::before {
+    content: "|";
+    margin-right: 20px;
+}
+
+/* 底部 */
+footer .mod_help {
+    height: 260px;
+    margin-left: 42.5px;
+    color: #999;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+
+.mod_help .end {
+    padding-top: 20px;
+    text-align: center;
+    font-size: larger;   
+}
+
+.mod_help .help {
+    height: 95px;
+    margin: 60px 12px;
+}
+
+.mod_help .help div {
+    float: left;
+    width: 220px;
+    height: 95px;
+    margin-right: 85px;
+}
+
+.mod_help .help .help1 {
+    margin-left: 20px;
+}
+
+.mod_help .help .help4 {
+    margin-right: 0px;
+}
+
+.mod_help .help h4 {
+    color: #3C3C3C;
+    font-size: 16px;
+}
+
+.mod_help .help li {
+    float: left;
+    margin: 7px 10px 0px 0px;
+}
+
+footer .mod_service {
+    width: 1280px;
+    height: 274px;
+    background-color: #fff;
+}
+
+.mod_service .mod_hd {
+    height: 75px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.mod_service .mod_bd {
+    height: 106px;
+    margin-top: 5px;
+}

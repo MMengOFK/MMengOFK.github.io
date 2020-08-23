@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../res/fonts/icomoon.eot?tomleg');
+    src:  url('../res/fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../res/fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../res/fonts/icomoon.woff?tomleg') format('woff'),
+      url('../res/fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#F5F5F5;
+}
+
+li {
+    list-style: none;
+}
+
+/* 当鼠标经过 button 按钮时，鼠标的箭头变成小手 */
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color:#919191;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F26240;
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle;
+}
+
+input {
+    border: 0px;
+    outline: none;
+}
+
+/* 淘宝首页小图标 */
+.tbh-icon {
+    display: inline-block;
+    background: url(../res/images/img_rightlogo.png) no-repeat;
+    background-size: 24px 597px;
+}
