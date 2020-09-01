@@ -59,3 +59,7 @@ input {
     background: url(../res/images/img_rightlogo.png) no-repeat;
     background-size: 24px 597px;
 }
+
+.up:hover {
+    transform: translateY(-2px);
+}
