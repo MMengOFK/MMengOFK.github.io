@@ -17,12 +17,3 @@ let right3 = new Vue ({
         }
     }
 })
-
-// let right3_1 = new Vue ({
-//     el: "#right3_1",
-//     method: {
-//         li_1: function() {
-//             this.message=""
-//         }
-//     }
-// })
